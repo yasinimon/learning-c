@@ -1,0 +1,35 @@
+
+//Lesson for learning user input to output 
+
+
+
+#include <stdio.h>
+
+int main()
+{
+
+  int SerialNumber ;
+  float MonthNum ;
+  double  MonthFraction ;
+  char Name ;
+
+
+ printf("Enter Serial Number: ");
+ scanf("%d", & SerialNumber);
+
+  printf("Enter Month Number: ");
+ scanf("%f", & MonthNum);
+
+  printf("Enter Month Fraction: ");
+ scanf("%lf", & MonthFraction);
+
+ printf("Enter Your Name:");
+ scanf(" %c", & Name);
+
+ printf("Enter Serial Number: %d\n", SerialNumber);
+ printf("Enter Month Number: %f\n", MonthNum);
+ printf("Enter Month Fraction: %lf\n", MonthFraction);
+ printf("Enter Your Name: %c\n", Name);
+
+  return 0;
+}
